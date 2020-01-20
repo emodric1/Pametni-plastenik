@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="SmartGreenHouse.Page5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SmartGreenHouse"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="602" Margin="26,0,0,0" VerticalAlignment="Center" Width="451" Source="/Assets/v.jpg"/>
+        <TextBlock HorizontalAlignment="Left" Margin="512,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Width="393" FontFamily="Bradley Hand ITC" FontWeight="Bold" FocusVisualPrimaryBrush="#FF5DAA28" Foreground="#FF377C27"><Run Text="Pa"/><Run Text="metni plastenik"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="538,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="23" FontWeight="Normal" FontFamily="Segoe UI" Text="Prikaz"/>
+        <TextBox HorizontalAlignment="Left" Margin="610,117,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="18" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="773,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="23" FontWeight="Normal" FontFamily="Segoe UI" Text="izvještaja o prodaji"/>
+        <TextBlock HorizontalAlignment="Left" Margin="661,504,0,0" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="21" RenderTransformOrigin="0.437,-0.064" Text="Izvještaj o prodaji"/>
+        <Rectangle HorizontalAlignment="Left" Height="300" Margin="538,199,0,0" Stroke="Black" VerticalAlignment="Top" Width="407"/>
+        <Grid Margin="538,199,79,141"/>
+        <Button Content="Nazad" Margin="798,576,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.29,-0.012" FontSize="18" Width="82"/>
+
+    </Grid>
+</Page>

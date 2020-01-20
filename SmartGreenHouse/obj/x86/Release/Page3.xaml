@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="SmartGreenHouse.Page3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SmartGreenHouse"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="602" Margin="26,0,0,0" VerticalAlignment="Center" Width="451" Source="/Assets/v.jpg"/>
+        <TextBlock HorizontalAlignment="Left" Margin="512,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Width="393" FontFamily="Bradley Hand ITC" FontWeight="Bold" FocusVisualPrimaryBrush="#FF5DAA28" Foreground="#FF377C27"><Run Text="Pa"/><Run Text="metni plastenik"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="538,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="23" FontWeight="Normal" FontFamily="Segoe UI"><Run Text="Dodavanje i uklanjanje sadnica"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="538,376,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="23" FontWeight="Normal" FontFamily="Segoe UI"><Run Text="Dodaj novu sadnicu"/><Run Text=":"/></TextBlock>
+        <TextBlock x:ConnectionId='1' HorizontalAlignment="Left" Margin="538,430,0,0" TextWrapping="Wrap" VerticalAlignment="Top"                                               FontSize="21" RenderTransformOrigin="0.437,-0.064"><Run Text="Naziv"/><Run Text=":"/></TextBlock>
+        <TextBlock x:ConnectionId='2' HorizontalAlignment="Left" Margin="538,478,0,0" TextWrapping="Wrap" VerticalAlignment="Top"                                               FontSize="21"><Run Text="Količin"/><Run Text="a"/><Run Text=":"/></TextBlock>
+        <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Margin="538,525,0,0" TextWrapping="Wrap" VerticalAlignment="Top"                                               FontSize="21"><Run Text="Cijen"/><Run Text="a"/><Run Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="641,478,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <TextBox HorizontalAlignment="Left" Margin="641,431,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <TextBox HorizontalAlignment="Left" Margin="641,523,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <Button Content="Nazad" Margin="798,576,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.29,-0.012" FontSize="18" Width="82"/>
+        <Button Content="Sačuvaj" Margin="614,576,0,0" VerticalAlignment="Top" FontSize="18" Width="119"/>
+        <Rectangle HorizontalAlignment="Left" Height="221" Margin="538,150,0,0" Stroke="Black" VerticalAlignment="Top" Width="376"/>
+        <ListView x:ConnectionId='4' Margin="538,150,110,269" FontSize="18" Header="Sadnice"                                             />
+
+    </Grid>
+</Page>
+
